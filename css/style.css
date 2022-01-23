@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Gaegu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+.hidden {
+  display: none;
+}
+
+.screen {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.8;
+  display: block;
+}
+
+#backgroundgray {
+  background-color: gainsboro;
+  opacity: 0.9;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: 100%;
+  margin: 8vh 8vw 8vh;
+  border-radius: 20px;
+  border: 4px outset rgba(0, 0, 0, 0.1);
+}
+
+#clock {
+  color: whitesmoke;
+  font-size: 8vw;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  font-family: "Varela Round", sans-serif;
+  /* font-family: "Gaegu", cursive; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10vh 6vw 4vh;
+}
+
+#login-form input {
+  border: none;
+  border-radius: 5px;
+  padding: 0.4vw;
+  font-family: "Gaegu", cursive;
+  font-size: 1.5vw;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+#login-form input:first-child {
+  padding-left: 2vw;
+}
+
+#login-form input:first-child:focus {
+  outline: none;
+}
+
+#login-form,
+#greeting {
+  margin: 0px 6vw 4vh;
+  padding-bottom: 10vh;
+}
+
+#greeting {
+  color: whitesmoke;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  font-family: "Gaegu", cursive;
+  font-size: 4vw;
+}
+
+#todo-form input {
+  margin: 8vh 4vw 0px;
+  border: none;
+  border-radius: 10px;
+  padding: 0.4vw;
+  padding-left: 2vw;
+  display: block;
+  width: 30vw;
+  height: 4vh;
+  background-color: rgba(255, 255, 255, 0.3);
+  font-family: "Gaegu", cursive;
+  font-size: 1.5vw;
+}
+
+#todo-form input:focus {
+  outline: none;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+  margin: 3vh 5vw 4vh;
+  font-family: "Gaegu", cursive;
+  font-size: 2vw;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+#todo-list button {
+  border: none;
+  padding-left: 2vw;
+  font-size: 2vw;
+  background-color: rgba(0, 0, 0, 0);
+  color: cadetblue;
+}
+
+#quote {
+  color: gray;
+  margin: 0px 10vw;
+  font-size: 2vw;
+  font-family: "Gaegu", cursive;
+}
+
+#quote span {
+  display: flex;
+}
+
+#weather {
+  margin: 2vh 10vw 0px;
+  position: absolute;
+  z-index: 1;
+  color: grey;
+  font-family: "Gaegu", cursive;
+  font-size: 1.4vw;
+}
+
+#weather span:first-child {
+  color: rgba(0, 0, 0, 0.7);
+}
